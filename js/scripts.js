@@ -208,7 +208,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // Cargar el navbar desde un archivo externo
     const navbarContainer = document.getElementById("navbar-container");
     if (navbarContainer) {
-        fetch("/Clase Introducción/components/navbar.html")
+        fetch("../components/navbar.html")
             .then(response => response.text())
             .then(data => {
                 navbarContainer.innerHTML = data;
